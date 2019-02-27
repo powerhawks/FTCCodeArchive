@@ -1,0 +1,9 @@
+November 7, 2017
+Joe Lewis and Chase Galey
+3796 Controls
+
+How code should be structured
+There should be a class for:
+    Components - Each component of the robot (e.g. Drive, Lift, Grabber) ( name structure: <name of robot><name of component><team number> )
+        Component classes should not contain any loops or telemetry
+    OpMode - Every OpMode ( name structure: <name of robot><name of opmode><teamnumber> )

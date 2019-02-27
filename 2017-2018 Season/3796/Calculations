@@ -1,0 +1,9 @@
+Drive motors: NeveRest 40 Gearmotor
+(pi)*4in (diameter) = 12.5663706144 (Circumference)
+Output counts per revolution of Output Shaft: 1120 ticks
+This means that every 1120 ticks, the wheels moves about 12.57 inches
+
+Lift motor: NeveRest 60 Gearmotor
+(pi)*3.5in (diameter) = 10.9955742876 (Circumference)
+Output counts per revolution of Output Shaft: 1680 ticks
+This means that every 1680 ticks, the lift moves about 11 inches
