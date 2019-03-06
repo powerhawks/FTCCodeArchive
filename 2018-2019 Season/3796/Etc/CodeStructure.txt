@@ -1,0 +1,17 @@
+October 6, 2018
+Chase Galey and Lincoln Doney
+3796 Controls
+
+How code should be structured
+There should be a class for:
+    Components - Each component of the robot (e.g. Drive, Lift, Grabber) ( name structure: <name of component><team number> )
+        Component classes should not contain any loops or telemetry
+    OpMode - Every OpMode ( name structure: <name of opmode><teamnumber> )
+
+Inside each class
+    ( labelling structure: <date of creation>
+                           <names of creators>
+                           <very brief description>)
+    (e.g.  November 14, 2017
+           Chase Galey and Joe Lewis
+           Glyph Grabber Methods)

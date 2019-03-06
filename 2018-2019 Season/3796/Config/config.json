@@ -1,0 +1,39 @@
+{
+  "team_name": "3796",
+  "robot_name": "Kowallski",
+  "controls": {
+    "sensitivity": 0.9,
+  },
+  "values": {
+    "drive_power": 0.75,
+    "ramp_up_mod": 1.0,
+    "ramp_down_mod": 0.7,
+    "extend_mod":1.0,
+    "arm_mod": 1.0,
+  },
+  "drive": {
+    "counts_per_motor_rev": 1440,
+    "drive_gear_reduction": 2.0,
+    "wheel_diameter_inches": 4.0,
+
+    "right_front_wheel": "rightFrontDrive",
+    "right_back_wheel": "rightBackDrive",
+    "left_front_wheel": "leftFrontDrive",
+    "left_back_wheel": "leftBackDrive",
+
+    "arm_right_motor": "collectionArmRight",
+    "arm_left_motor": "collectionArmLeft",
+
+    "ramp_motor": "rampMotor",
+    "extend_motor": "rampExtender",
+
+    "collect_servo_left": "collectionServoLeft",
+    "collect_servo_right": "collectionServoRight",
+  },
+  "vision": {
+    "camera_name": "Webcam 1",
+    "label_gold": "Gold Mineral",
+    "label_silver": "Silver Mineral",
+    "tfod_model": "RoverRuckus.tflite",
+  }
+}

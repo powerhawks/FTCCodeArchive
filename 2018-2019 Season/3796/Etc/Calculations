@@ -1,0 +1,3 @@
+Drive motors: NeveRest 20 Gearmotor
+(pi)*3.975in (diameter) = 12.4878308 (Circumference)
+Output counts per revolution of Output Shaft: 560 ticksThis means that every 560 ticks, the wheels moves forward about 12.57 inches
